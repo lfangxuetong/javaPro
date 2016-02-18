@@ -1,0 +1,197 @@
+{
+    "enquiry": {
+        "dealOffer": {
+            "drivers": [],
+            "efcExpireDate": "2016-06-1523: 59: 59",
+            "efcEffectiveDate": "2015-06-1600: 00: 00",
+            "proposerInfo": {
+                "birthday": "1977-03-08",
+                "certificate": {
+                    "certNumber": "360312199309163110",
+                    "certName": "身份证",
+                    "certKinds": {
+                        "idx": 1
+                    }
+                },
+                "email": "520zzb@baoxian.com",
+                "livingAddress": "东三街158号",
+                "gender": {
+                    "idx": 1
+                },
+                "postcode": "200092",
+                "mobileNumber": "18779103935",
+                "personName": "CH"
+            },
+            "carOwnerInfo": {
+                "certificate": {
+                    "certNumber": "620401197703081659",
+                    "certName": "身份证",
+                    "certKinds": {
+                        "idx": 1
+                    }
+                },
+                "phoneNumber": "12344321",
+                "livingAddress": "东三街158号",
+                "gender": {
+                    "idx": 1
+                },
+                "mobileNumber": "13005343314",
+                "personName": "CH"
+            },
+            "insuredPersonList": [
+                {
+                    "certificate": {
+                        "certKinds": {
+                            "idx": 1,
+                            "name": "身份证"
+                        }
+                    },
+                    "mobileNumber": "",
+                    "personName": "CH"
+                }
+            ],
+            "bizEffectiveDate": "2015-06-1600: 00: 00",
+            "bizExpireDate": "2016-06-1523: 59: 59",
+            "suite": {
+                "items": {
+                    "GlassIns": {
+                        "amount": -1,
+                        "ecode": "GlassIns",
+                        "selIdx": 1
+                    },
+                    "ThirdPartyIns": {
+                        "amount": 500000,
+                        "ecode": "ThirdPartyIns",
+                        "selIdx": 6
+                    },
+                    "VehicleDemageIns": {
+                        "amount": -1,
+                        "ecode": "VehicleDemageIns",
+                        "selIdx": 1
+                    },
+                    "VehicleCompulsoryIns": {
+                        "amount": -1,
+                        "ecode": "VehicleCompulsoryIns",
+                        "selIdx": 1
+                    },
+                    "NcfPassengerIns": {
+                        "amount": -1,
+                        "ecode": "NcfPassengerIns",
+                        "selIdx": 1
+                    },
+                    "TheftIns": {
+                        "amount": -1,
+                        "ecode": "TheftIns",
+                        "selIdx": 1
+                    },
+                    "NcfVehicleDemageIns": {
+                        "amount": -1,
+                        "ecode": "NcfVehicleDemageIns",
+                        "selIdx": 1
+                    },
+                    "NcfDriverIns": {
+                        "amount": -1,
+                        "ecode": "NcfDriverIns",
+                        "selIdx": 1
+                    },
+                    "NcfThirdPartyIns": {
+                        "amount": -1,
+                        "ecode": "NcfThirdPartyIns",
+                        "selIdx": 1
+                    },
+                    "DriverIns": {
+                        "amount": 10000,
+                        "ecode": "DriverIns",
+                        "selIdx": 2
+                    },
+                    "NcfTheftIns": {
+                        "amount": -1,
+                        "ecode": "NcfTheftIns",
+                        "selIdx": 1
+                    },
+                    "PassengerIns": {
+                        "amount": 10000,
+                        "ecode": "PassengerIns",
+                        "selIdx": 2
+                    }
+                }
+            },
+            "insArea": {},
+            "beneficiaryPersonList": [
+                {
+                    "birthday": "1977-03-08",
+                    "certificate": {
+                        "certNumber": "620401197703081659",
+                        "certName": "身份证",
+                        "certKinds": {
+                            "idx": 1
+                        }
+                    },
+                    "phoneNumber": "12344321",
+                    "email": "520zzb.baoxian.com",
+                    "livingAddress": "东三街158号",
+                    "gender": {
+                        "idx": 1
+                    },
+                    "postcode": "200092",
+                    "mobileNumber": "12344321",
+                    "personName": "CH"
+                }
+            ],
+            "carInfo": {
+                "fullLoad": 1200,
+                "bodyColor": {
+                    "idx": 1
+                },
+                "modelLoad": 0,
+                "carVehicleOrigin": {
+                    "idx": 1
+                },
+                "avgMileage": 28000,
+                "userType": {
+                    "idx": 1
+                },
+                "plateType": {
+                    "idx": 2
+                },
+                "ratedPassengerCapacity": 5,
+                "carGlassType": {
+                    "idx": 1
+                },
+                "displacement": 1.594,
+                "vin": "AXI2131WETCSAXVFG",
+                "carModelName": "雅阁HG7203ABV轿车",
+                "useProps": {
+                    "idx": 1
+                },
+                "firstRegDate": "2015-06-1600: 00: 00",
+                "plateColor": {
+                    "idx": 2
+                },
+                "carBrandName": "本田雅阁",
+                "engineNum": "BE1546254",
+                "taxPrice": 0,
+                "carDrivingArea": {
+                    "idx": 1
+                },
+                "misc": {},
+                "carModel": {},
+                "price": 0,
+                "vehicleType": {
+                    "idx": 1
+                },
+                "plateNum": "粤A4488P"
+            }
+        },
+        "comId": "425",
+        "dealBack": {
+            "totalCharge": 6759.2,
+            "taxCharge": 1609.09,
+            "bizCharge": 4200.11,
+            "efcCharge": 950
+        },
+        "sqHttpURL": "http: //119.29.120.204: 5000/",
+        "eid": "6011506151119264262",
+        "misc": ""
+    }
+}

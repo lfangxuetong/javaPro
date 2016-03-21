@@ -2,8 +2,8 @@
     "enquiry": {
         "dealOffer": {
             "drivers": [],
-            "efcExpireDate": "2016-06-1523: 59: 59",
-            "efcEffectiveDate": "2015-06-1600: 00: 00",
+            "efcExpireDate": "2016-06-15 23:59:59",
+            "efcEffectiveDate": "2015-06-16 00:00:00",
             "proposerInfo": {
                 "birthday": "1977-03-08",
                 "certificate": {
@@ -50,8 +50,8 @@
                     "personName": "CH"
                 }
             ],
-            "bizEffectiveDate": "2015-06-1600: 00: 00",
-            "bizExpireDate": "2016-06-1523: 59: 59",
+            "bizEffectiveDate": "2015-06-16 00:00:00",
+            "bizExpireDate": "2016-06-15 23:59:59",
             "suite": {
                 "items": {
                     "GlassIns": {
@@ -190,7 +190,7 @@
             "bizCharge": 4200.11,
             "efcCharge": 950
         },
-        "sqHttpURL": "http: //119.29.120.204: 5000/",
+        "sqHttpURL": "http: //119.29.120.204:5000/",
         "eid": "6011506151119264262",
         "misc": ""
     }

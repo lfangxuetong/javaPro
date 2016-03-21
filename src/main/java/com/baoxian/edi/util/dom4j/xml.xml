@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <country level="1" code="zhongGuo" desc="中国">
+        <province level="2" code="guangDong" desc="广东">
+            <city level="3" code="guangZhou" desc="广州" >广州市</city>
+            <city level="3" code="shenZhen" desc="深圳">深圳市</city>
+        </province>
+        <province level="2" code="guangXi" desc="广西">
+            <city level="3" code="nanNing" desc="南宁">南宁市</city>
+            <city level="3" code="guiLin" desc="桂林">桂林市</city>
+        </province>
+    </country>
+</root>

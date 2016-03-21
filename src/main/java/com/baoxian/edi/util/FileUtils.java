@@ -1,5 +1,7 @@
 package com.baoxian.edi.util;
 
+import com.alibaba.fastjson.JSONObject;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -7,9 +9,17 @@ import java.util.Map;
 
 /**
  * Created by liwucai on 2016/2/18.
+ *
  */
-public class TemplateUtil {
-    public static String fileToStr_func1(String filePath,String encoding) throws Exception {
+public class FileUtils {
+    /**
+     * IO 方式读取 文本文件 的字符串
+     * @param filePath 文件的路径
+     * @param encoding 文件的编码
+     * @return 返回文件的字符串
+     * @throws Exception
+     */
+    public static String fileToStr_func1(String filePath, String encoding) throws Exception {
         String fileContent = null;
         File file = new File(filePath);
         Long size = file.length();
@@ -21,6 +31,13 @@ public class TemplateUtil {
         return fileContent;
     }
 
+    /**
+     * 使用apache commons 包读取 文本文件 的字符串
+     * @param filePath 文件的路径
+     * @param encoding 文件的编码
+     * @return 返回文件的字符串
+     * @throws Exception
+     */
     public static String fileToStr_func2(String filePath,String encoding) throws Exception {
         String ctx="";
         try {
@@ -30,23 +47,8 @@ public class TemplateUtil {
         }
         return ctx;
     }
-
-    public static void main(String[] args){
-        String path="E:\\test_can_d\\javaPro\\src\\main\\java\\com\\baoxian\\edi\\util\\json_text.txt";
-
-        try {
-            System.out.println("ctx = " + fileToStr_func1(path, "UTF-8"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        try {
-            System.out.println("jsonString = " + TemplateUtil.fileToStr_func2(path, "UTF-8"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        //Map map = JSONObject.parseObject(ss, Map.class);
-    }
 }
+
 
 
 
